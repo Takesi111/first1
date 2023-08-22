@@ -37,5 +37,5 @@ max_val= st.number_input('最大値を入力してくだいさい', value=10)
 
 if st.button('乱数を生成'):
 
-    random_num = random.randint(min_val, maxval)
-    st.write(f'生成された乱数:{random_num}')
+    random_num = random.randint(min_val, max＿val)
+    st.write(f'生成された乱数:{random_num}'
